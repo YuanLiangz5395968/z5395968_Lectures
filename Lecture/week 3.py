@@ -152,11 +152,11 @@ def qan_tic():  #()里面放参数
     return tic #定义了返回值
 res = qan_tic() # call the function
 #带参数
-def mk_csv_name(tic):
-    tic = tic.lower()
-    tic_base = tic.split('.')[0]
-    csv_name = f'{tic_base}_stk_prc.csv'
-    return csv_nam
+# def mk_csv_name(tic):
+#     tic = tic.lower()
+#     tic_base = tic.split('.')[0]
+#     csv_name = f'{tic_base}_stk_prc.csv'
+#     return csv_nam
 
 
 #（十）Comprehensions
